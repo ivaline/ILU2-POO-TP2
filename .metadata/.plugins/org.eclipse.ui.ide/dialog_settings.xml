@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\alina\eclipse-workspace\ILU2-POO-TP2\src"/>
+			<item value="C:\Users\alina\Desktop\subjects\ILU2\ilu2-tp-4-5-groupe-b-ivaline\TP Commun IHM Partie donnee"/>
+			<item value="C:\Users\alina\eclipse-workspace"/>
+			<item value="C:\Users\alina\eclipse-workspace\ILU2-POO-TP2"/>
+		</list>
+	</section>
+</section>

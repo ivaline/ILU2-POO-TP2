@@ -1,0 +1,21 @@
+
+d	java:S106"9Replace this use of System.out or System.err by a logger.(²öùHŸRMAJORZ
+CODE_SMELL
+i	java:S106 "9Replace this use of System.out or System.err by a logger.(¹Ï¡©şÿÿÿÿH RMAJORZ
+CODE_SMELL
+i	java:S106""9Replace this use of System.out or System.err by a logger.(Ü«ØˆıÿÿÿÿH¡RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(ÆøôçH¢RMAJORZ
+CODE_SMELL
+v
+java:S1192"GDefine a constant instead of duplicating this literal "fleurs" 3 times.(²öùH£RCRITICALZ
+CODE_SMELL
+g	java:S125$"<This block of commented-out lines of code should be removed.(ÇæÆH§RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(²ÿ¶ûH­RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(˜–ê¶ûÿÿÿÿH®RMAJORZ
+CODE_SMELL
+a
+java:S1128"0Remove this unused import 'villagegaulois.Etal'.(›³ÇªøÿÿÿÿH¯RMINORZ
+CODE_SMELL

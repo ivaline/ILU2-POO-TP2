@@ -15,7 +15,7 @@ public class BoundaryAcheterProduit {
 	}
 
 	public void acheterProduit(String nomAcheteur) {
-		/*if (!controlAcheterProduit.verifierIdentite(nomAcheteur)) {
+		if (!controlAcheterProduit.verifierIdentite(nomAcheteur)) {
 			StringBuilder question = new StringBuilder();
 			System.out.println("Je suis désolée, " + nomAcheteur + " mais il faut être un habitant de notre village pour commencer ici.");
 		} else {
@@ -41,7 +41,6 @@ public class BoundaryAcheterProduit {
 						System.out.println("Vous devez choisir le chiffre entre 1 et " + String.valueOf(nbCommercants) + " !");
 					}
 				}
-				
 				if ((choixUtilisateur > 0 ) && (choixUtilisateur < nbCommercants)) {
 					for (int i=0; i<nbCommercants; i++) {
 						if (choixUtilisateur == i) {
@@ -57,7 +56,7 @@ public class BoundaryAcheterProduit {
 				
 				int nbProduit = Clavier.entrerEntier("Bonjour, " + nomAcheteur + "\nCombien de " + produit + " voulez-vous acheter ?");
 				Etal etalCommercant = controlAcheterProduit.trouverEtalProduit(nomCommercant);
-				int quantite = Integer.valueOf(etalCommercant.getQuantite());
+				int quantite = etalCommercant.getQuantite();
 				
 				if (quantite == 0) {
 					System.out.println(nomAcheteur + " veut acheter " + nbProduit + " " + produit + ", malheureusement il n’y en a plus !");
@@ -70,7 +69,9 @@ public class BoundaryAcheterProduit {
 					}
 					etalCommercant.acheterProduit(nbProduit);
 				}
+			}
 		}
-		}*/
-		}
+			}
 }
+
+				

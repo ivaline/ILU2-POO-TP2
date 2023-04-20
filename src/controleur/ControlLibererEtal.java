@@ -8,6 +8,7 @@ public class ControlLibererEtal {
 	public ControlLibererEtal(
 			ControlTrouverEtalVendeur controlTrouverEtalVendeur) {
 		this.controlTrouverEtalVendeur = controlTrouverEtalVendeur;
+		
 	}
 
 	public boolean isVendeur(String nomVendeur){
@@ -26,12 +27,16 @@ public class ControlLibererEtal {
 	 *         quantité de produit vendu
 	 */
 	public String[] libererEtal(String nomVendeur) {
-		if (!isVendeur(nomVendeur)) {
-			StringBuilder isVend = new StringBuilder();
-			isVend.append(" Mais vous n'etes pas inscrit sur notre marche auj! ");
+		String[] donneesEtal = new String[5];
+		Etal etal = controlTrouverEtalVendeur.trouverEtalVendeur(nomVendeur);
+		if (isVendeur(nomVendeur)) {
+			donneesEtal = etal.etatEtal();
+			//StringBuilder isVend = new StringBuilder();
+			//isVend.append(" Mais vous n'etes pas inscrit sur notre marche auj! ");
+			return donneesEtal;
 		}
 		
-		String[] donneesEtal = null;
+		donneesEtal = null;
 		return donneesEtal;
 	}
 

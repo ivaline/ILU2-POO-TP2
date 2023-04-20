@@ -12,6 +12,8 @@ public class ControlVerifierIdentite {
 
 	public boolean verifierIdentite(String nomVendeur) {
 		Gaulois gal = this.village.trouverHabitant(nomVendeur);
-		return gal !=null;
+		if (gal != null)
+			return true;
+		return false;
 	}
 }
